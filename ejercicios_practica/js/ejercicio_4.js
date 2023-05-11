@@ -10,6 +10,13 @@ let texto2 = '7';
 
 //  Verifique cual cual de los dos textos es mayor alfabéticamente
 //  Imprima en pantalla según corresponda
+let numero1= Number(texto1);
+let numero2= Number(texto2);
+if(numero1 > numero2){
+    console.log(texto1);
+}else{
+    console.log(texto2);
+}
 
 //  Transforma esas variables tipo texto y almacénalas
 //  en nuevas variables númericas (Number) con parseInt()
@@ -24,3 +31,4 @@ let texto2 = '7';
 //  Esta pregunta estará repetida en el Campus para que puedan
 //  responder.
 //  NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+

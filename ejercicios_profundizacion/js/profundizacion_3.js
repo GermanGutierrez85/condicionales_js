@@ -22,3 +22,8 @@
 // investigue y busque como utilizarla.
 
 // En cada caso imprimir en pantalla el resultado
+const temp1 = parseInt(prompt("Ingrese primer dato de temperatura"));
+const temp2 = parseInt(prompt("Ingrese segundo dato de temperatura"));
+const temp3 = parseInt(prompt("Ingrese tercer dato de temperatura"));
+console.log(Math.max(temp1, temp2, temp3) + "°" + " temperatura maxima ingresada ");
+console.log(Math.min(temp1, temp2, temp3) + "°" + " temperatura minima ingresada ");
